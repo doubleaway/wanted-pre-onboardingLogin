@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  color: #333;
+  display: flex;
+  line-height: 60px;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+.header button {
+  color: white;
+  background: transparent;
+  font-size: 1.5rem;
+}
+
+.content_body {
+  display: flex;
+  height: 90vh;
+}
+.content_body .menu {
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  height: 100%;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.content_body .menu li {
+  height: 35px;
+  margin-top: 15px;
+  font-size: 1.25rem;
+}
+.content_body .menu li:hover {
+  color: burlywood;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
